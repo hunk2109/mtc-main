@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/mountaincoin
+src/mountaincoind
+src/mountaincoin-cli
+src/mountaincoin-tx
+src/test/test_mountaincoin
+src/test/test_mountaincoin_fuzzy
+src/qt/test/test_mountaincoin-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-Litecoin-Qt.app
+mountaincoin-qt
+Mountaincoin-Qt.app
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+mountaincoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -93,7 +93,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_mountaincoin.coverage/
 total.coverage/
 coverage_percent.txt
 
